@@ -1,0 +1,29 @@
+{
+  "name": "moselle-theme",
+  "version": "1.0.0",
+  "description": "Dark theme for Home Assistant, adapted to work nicely with Bubble Card",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pierrecholhot/moselle-theme.git"
+  },
+  "author": "Pierre Cholhot",
+  "license": "MIT",
+  "scripts": {
+    "check": "prettier --check .",
+    "fix": "prettier --write .",
+    "preversion": "npm run check",
+    "postversion": "git push --follow-tags",
+    "bump:patch": "npm version patch",
+    "bump:minor": "npm version minor",
+    "bump:major": "npm version major",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "9.1.7",
+    "lint-staged": "16.2.7",
+    "prettier": "3.8.1"
+  },
+  "lint-staged": {
+    "*.{yaml,yml,json,md}": "prettier --write"
+  }
+}

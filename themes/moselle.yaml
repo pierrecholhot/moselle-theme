@@ -1,0 +1,900 @@
+moselle:
+  # ==================================================
+  # CORE STYLES (core.globals.ts)
+  # ==================================================
+
+  # Border widths
+  ha-border-width-sm: 1px
+  ha-border-width-md: 2px
+  ha-border-width-lg: 3px
+
+  # Border radius
+  ha-border-radius-sm: 4px
+  ha-border-radius-md: 8px
+  ha-border-radius-lg: 12px
+  ha-border-radius-xl: 16px
+  ha-border-radius-2xl: 20px
+  ha-border-radius-3xl: 24px
+  ha-border-radius-4xl: 28px
+  ha-border-radius-5xl: 32px
+  ha-border-radius-6xl: 36px
+  ha-border-radius-pill: 9999px
+  ha-border-radius-circle: 50%
+  ha-border-radius-square: 0
+
+  # Spacing
+  ha-space-0: 0px
+  ha-space-1: 4px
+  ha-space-2: 8px
+  ha-space-3: 12px
+  ha-space-4: 16px
+  ha-space-5: 20px
+  ha-space-6: 24px
+  ha-space-7: 28px
+  ha-space-8: 32px
+  ha-space-9: 36px
+  ha-space-10: 40px
+  ha-space-11: 44px
+  ha-space-12: 48px
+  ha-space-13: 52px
+  ha-space-14: 56px
+  ha-space-15: 60px
+  ha-space-16: 64px
+  ha-space-17: 68px
+  ha-space-18: 72px
+  ha-space-19: 76px
+  ha-space-20: 80px
+
+  # ==================================================
+  # MAIN STYLES (main.globals.ts)
+  # ==================================================
+
+  # Height
+  header-height: 'var(--ha-space-12)'
+
+  # Opacity for dark text on light background
+  dark-divider-opacity: 0.12
+  dark-disabled-opacity: 0.38
+  dark-secondary-opacity: 0.54
+  dark-primary-opacity: 0.87
+
+  # Opacity for light text on dark background
+  light-divider-opacity: 0.12
+  light-disabled-opacity: 0.3
+  light-secondary-opacity: 0.7
+  light-primary-opacity: 1
+
+  # Direction
+  direction: ltr
+  float-start: left
+  float-end: right
+  margin-title-ltr: 0 0 0 24px
+  margin-title-rtl: 0 24px 0 0
+
+  # Safe area insets
+  safe-area-inset-top: 'var(--app-safe-area-inset-top, env(safe-area-inset-top, 0))'
+  safe-area-inset-bottom: 'var(--app-safe-area-inset-bottom, env(safe-area-inset-bottom, 0))'
+  safe-area-inset-left: 'var(--app-safe-area-inset-left, env(safe-area-inset-left, 0))'
+  safe-area-inset-right: 'var(--app-safe-area-inset-right, env(safe-area-inset-right, 0))'
+
+  # ==================================================
+  # TYPOGRAPHY STYLES (typography.globals.ts)
+  # ==================================================
+
+  # Font families
+  ha-font-family-body: 'Roboto, Noto, sans-serif'
+  ha-font-family-code: monospace
+  ha-font-family-longform: 'ui-sans-serif, system-ui, sans-serif'
+
+  # Font sizes
+  ha-font-size-xs: 'calc(10px * var(--ha-font-size-scale, 1))'
+  ha-font-size-s: 'calc(12px * var(--ha-font-size-scale, 1))'
+  ha-font-size-m: 'calc(14px * var(--ha-font-size-scale, 1))'
+  ha-font-size-l: 'calc(16px * var(--ha-font-size-scale, 1))'
+  ha-font-size-xl: 'calc(20px * var(--ha-font-size-scale, 1))'
+  ha-font-size-2xl: 'calc(24px * var(--ha-font-size-scale, 1))'
+  ha-font-size-3xl: 'calc(28px * var(--ha-font-size-scale, 1))'
+  ha-font-size-4xl: 'calc(32px * var(--ha-font-size-scale, 1))'
+  ha-font-size-5xl: 'calc(40px * var(--ha-font-size-scale, 1))'
+  ha-font-size-scale: 1
+  ha-font-size-2xs: 'calc(8px * var(--ha-font-size-scale, 1))'
+
+  # Font weights
+  ha-font-weight-light: 300
+  ha-font-weight-normal: 400
+  ha-font-weight-medium: 500
+  ha-font-weight-bold: 700
+
+  # Font weight contexts
+  ha-font-family-heading: 'var(--ha-font-family-body)'
+  ha-font-weight-body: 'var(--ha-font-weight-normal)'
+  ha-font-weight-heading: 'var(--ha-font-weight-bold)'
+  ha-font-weight-action: 'var(--ha-font-weight-medium)'
+
+  # Line heights
+  ha-line-height-condensed: 1.2
+  ha-line-height-normal: 1.6
+  ha-line-height-expanded: 2
+
+  # Font smoothing
+  ha-font-smoothing: antialiased
+  ha-moz-osx-font-smoothing: grayscale
+
+  # Vaadin typography
+  material-h6-font-size: 'var(--ha-font-size-m)'
+  material-small-font-size: 'var(--ha-font-size-xs)'
+  material-caption-font-size: 'var(--ha-font-size-2xs)'
+  material-button-font-size: 'var(--ha-font-size-xs)'
+
+  # Material Design list fonts
+  md-list-item-label-text-font: 'var(--ha-font-family-body)'
+  md-list-item-supporting-text-font: 'var(--ha-font-family-body)'
+  md-list-item-trailing-supporting-text-font: 'var(--ha-font-family-body)'
+  md-list-container-color: 'transparent'
+
+  md-sys-color-surface: 'transparent'
+
+  # ==================================================
+  # CORE COLOR STYLES (color/core.globals.ts)
+  # ==================================================
+
+  # Primary colors
+  ha-color-primary-05: 'rgba(0, 20, 30, 1)'
+  ha-color-primary-10: 'rgba(1, 39, 58, 1)'
+  ha-color-primary-20: 'rgba(2, 62, 92, 1)'
+  ha-color-primary-30: 'rgba(3, 93, 137, 1)'
+  ha-color-primary-40: 'rgba(4, 124, 183, 1)'
+  ha-color-primary-50: 'rgba(5, 134, 183, 1)'
+  ha-color-primary-60: 'rgba(6, 144, 200, 0.5)'
+  ha-color-primary-70: 'rgba(6, 144, 200, 0.4)'
+  ha-color-primary-80: 'rgba(6, 144, 200, 0.3)'
+  ha-color-primary-90: 'rgba(6, 144, 200, 0.2)'
+  ha-color-primary-95: 'rgba(6, 144, 200, 0.1)'
+
+  # Neutral colors
+  ha-color-neutral-05: 'rgba(255, 255, 255, 0.95)'
+  ha-color-neutral-10: 'rgba(255, 255, 255, 0.9)'
+  ha-color-neutral-20: 'rgba(255, 255, 255, 0.85)'
+  ha-color-neutral-30: 'rgba(255, 255, 255, 0.8)'
+  ha-color-neutral-40: 'rgba(255, 255, 255, 0.75)'
+  ha-color-neutral-50: 'rgba(255, 255, 255, 0.7)'
+  ha-color-neutral-60: 'rgba(255, 255, 255, 0.65)'
+  ha-color-neutral-70: 'rgba(255, 255, 255, 0.6)'
+  ha-color-neutral-80: 'rgba(255, 255, 255, 0.55)'
+  ha-color-neutral-90: 'rgba(255, 255, 255, 0.5)'
+  ha-color-neutral-95: 'rgba(255, 255, 255, 0.45)'
+
+  # Orange colors
+  ha-color-orange-05: 'rgba(38, 25, 0, 1)'
+  ha-color-orange-10: 'rgba(51, 33, 0, 1)'
+  ha-color-orange-20: 'rgba(77, 50, 0, 1)'
+  ha-color-orange-30: 'rgba(128, 83, 0, 1)'
+  ha-color-orange-40: 'rgba(191, 125, 0, 1)'
+  ha-color-orange-50: 'rgba(255, 166, 0, 1)'
+  ha-color-orange-60: 'rgba(255, 179, 41, 1)'
+  ha-color-orange-70: 'rgba(255, 193, 77, 1)'
+  ha-color-orange-80: 'rgba(255, 213, 128, 1)'
+  ha-color-orange-90: 'rgba(255, 232, 179, 1)'
+  ha-color-orange-95: 'rgba(255, 243, 217, 1)'
+
+  # Red colors
+  ha-color-red-05: 'rgba(33, 10, 8, 1)'
+  ha-color-red-10: 'rgba(55, 17, 14, 1)'
+  ha-color-red-20: 'rgba(88, 27, 22, 1)'
+  ha-color-red-30: 'rgba(131, 41, 33, 1)'
+  ha-color-red-40: 'rgba(175, 54, 44, 1)'
+  ha-color-red-50: 'rgba(219, 68, 55, 1)'
+  ha-color-red-60: 'rgba(239, 108, 96, 1)'
+  ha-color-red-70: 'rgba(244, 143, 133, 1)'
+  ha-color-red-80: 'rgba(250, 179, 172, 1)'
+  ha-color-red-90: 'rgba(255, 218, 214, 1)'
+  ha-color-red-95: 'rgba(255, 239, 237, 1)'
+
+  # Green colors
+  ha-color-green-05: 'rgba(10, 24, 11, 1)'
+  ha-color-green-10: 'rgba(17, 40, 18, 1)'
+  ha-color-green-20: 'rgba(27, 64, 28, 1)'
+  ha-color-green-30: 'rgba(40, 96, 43, 1)'
+  ha-color-green-40: 'rgba(54, 128, 57, 1)'
+  ha-color-green-50: 'rgba(67, 160, 71, 1)'
+  ha-color-green-60: 'rgba(102, 187, 106, 1)'
+  ha-color-green-70: 'rgba(129, 199, 132, 1)'
+  ha-color-green-80: 'rgba(165, 214, 167, 1)'
+  ha-color-green-90: 'rgba(200, 230, 201, 1)'
+  ha-color-green-95: 'rgba(232, 245, 233, 1)'
+
+  # ==================================================
+  # SEMANTIC COLOR STYLES (color/semantic.globals.ts)
+  # ==================================================
+
+  # Focus
+  ha-color-focus: 'var(--ha-color-orange-60)'
+
+  # Text colors
+  ha-color-text-primary: 'var(--ha-color-neutral-05)'
+  ha-color-text-secondary: 'var(--ha-color-neutral-40)'
+  ha-color-text-disabled: 'var(--ha-color-neutral-60)'
+  ha-color-text-link: 'var(--ha-color-primary-40)'
+
+  # Border primary
+  ha-color-border-primary-quiet: 'var(--ha-color-primary-80)'
+  ha-color-border-primary-normal: 'var(--ha-color-primary-70)'
+  ha-color-border-primary-loud: 'var(--ha-color-primary-40)'
+
+  # Border neutral
+  ha-color-border-neutral-quiet: 'var(--ha-color-neutral-80)'
+  ha-color-border-neutral-normal: 'var(--ha-color-neutral-60)'
+  ha-color-border-neutral-loud: 'var(--ha-color-neutral-40)'
+
+  # Border danger
+  ha-color-border-danger-quiet: 'var(--ha-color-red-80)'
+  ha-color-border-danger-normal: 'var(--ha-color-red-70)'
+  ha-color-border-danger-loud: 'var(--ha-color-red-40)'
+
+  # Border warning
+  ha-color-border-warning-quiet: 'var(--ha-color-orange-80)'
+  ha-color-border-warning-normal: 'var(--ha-color-orange-70)'
+  ha-color-border-warning-loud: 'var(--ha-color-orange-40)'
+
+  # Border success
+  ha-color-border-success-quiet: 'var(--ha-color-green-80)'
+  ha-color-border-success-normal: 'var(--ha-color-green-70)'
+  ha-color-border-success-loud: 'var(--ha-color-green-40)'
+
+  # Fill primary quiet
+  ha-color-fill-primary-quiet-resting: 'var(--ha-color-primary-95)'
+  ha-color-fill-primary-quiet-hover: 'var(--ha-color-primary-90)'
+  ha-color-fill-primary-quiet-active: 'var(--ha-color-primary-95)'
+
+  # Fill primary normal
+  ha-color-fill-primary-normal-resting: 'var(--ha-color-primary-90)'
+  ha-color-fill-primary-normal-hover: 'var(--ha-color-primary-80)'
+  ha-color-fill-primary-normal-active: 'var(--ha-color-primary-90)'
+
+  # Fill primary loud
+  ha-color-fill-primary-loud-resting: 'var(--ha-color-primary-40)'
+  ha-color-fill-primary-loud-hover: 'var(--ha-color-primary-30)'
+  ha-color-fill-primary-loud-active: 'var(--ha-color-primary-40)'
+
+  # Fill neutral quiet
+  ha-color-fill-neutral-quiet-resting: 'var(--ha-color-neutral-80)'
+  ha-color-fill-neutral-quiet-hover: 'var(--ha-color-neutral-70)'
+  ha-color-fill-neutral-quiet-active: 'var(--ha-color-neutral-80)'
+
+  # Fill neutral normal
+  ha-color-fill-neutral-normal-resting: 'var(--ha-color-neutral-70)'
+  ha-color-fill-neutral-normal-hover: 'var(--ha-color-neutral-60)'
+  ha-color-fill-neutral-normal-active: 'var(--ha-color-neutral-70)'
+
+  # Fill neutral loud
+  ha-color-fill-neutral-loud-resting: 'var(--ha-color-neutral-40)'
+  ha-color-fill-neutral-loud-hover: 'var(--ha-color-neutral-30)'
+  ha-color-fill-neutral-loud-active: 'var(--ha-color-neutral-40)'
+
+  # Fill disabled quiet
+  ha-color-fill-disabled-quiet-resting: 'var(--ha-color-neutral-95)'
+
+  # Fill disabled normal
+  ha-color-fill-disabled-normal-resting: 'var(--ha-color-neutral-95)'
+
+  # Fill disabled loud
+  ha-color-fill-disabled-loud-resting: 'var(--ha-color-neutral-80)'
+
+  # Fill danger quiet
+  ha-color-fill-danger-quiet-resting: 'var(--ha-color-red-95)'
+  ha-color-fill-danger-quiet-hover: 'var(--ha-color-red-90)'
+  ha-color-fill-danger-quiet-active: 'var(--ha-color-red-95)'
+
+  # Fill danger normal
+  ha-color-fill-danger-normal-resting: 'var(--ha-color-red-90)'
+  ha-color-fill-danger-normal-hover: 'var(--ha-color-red-80)'
+  ha-color-fill-danger-normal-active: 'var(--ha-color-red-90)'
+
+  # Fill danger loud
+  ha-color-fill-danger-loud-resting: 'var(--ha-color-red-50)'
+  ha-color-fill-danger-loud-hover: 'var(--ha-color-red-40)'
+  ha-color-fill-danger-loud-active: 'var(--ha-color-red-50)'
+
+  # Fill warning quiet
+  ha-color-fill-warning-quiet-resting: 'var(--ha-color-orange-95)'
+  ha-color-fill-warning-quiet-hover: 'var(--ha-color-orange-90)'
+  ha-color-fill-warning-quiet-active: 'var(--ha-color-orange-95)'
+
+  # Fill warning normal
+  ha-color-fill-warning-normal-resting: 'var(--ha-color-orange-90)'
+  ha-color-fill-warning-normal-hover: 'var(--ha-color-orange-80)'
+  ha-color-fill-warning-normal-active: 'var(--ha-color-orange-90)'
+
+  # Fill warning loud
+  ha-color-fill-warning-loud-resting: 'var(--ha-color-orange-70)'
+  ha-color-fill-warning-loud-hover: 'var(--ha-color-orange-50)'
+  ha-color-fill-warning-loud-active: 'var(--ha-color-orange-70)'
+
+  # Fill success quiet
+  ha-color-fill-success-quiet-resting: 'var(--ha-color-green-95)'
+  ha-color-fill-success-quiet-hover: 'var(--ha-color-green-90)'
+  ha-color-fill-success-quiet-active: 'var(--ha-color-green-95)'
+
+  # Fill success normal
+  ha-color-fill-success-normal-resting: 'var(--ha-color-green-90)'
+  ha-color-fill-success-normal-hover: 'var(--ha-color-green-80)'
+  ha-color-fill-success-normal-active: 'var(--ha-color-green-90)'
+
+  # Fill success loud
+  ha-color-fill-success-loud-resting: 'var(--ha-color-green-50)'
+  ha-color-fill-success-loud-hover: 'var(--ha-color-green-40)'
+  ha-color-fill-success-loud-active: 'var(--ha-color-green-50)'
+
+  # On primary
+  ha-color-on-primary-quiet: 'var(--ha-color-primary-50)'
+  ha-color-on-primary-normal: 'var(--ha-color-primary-40)'
+  ha-color-on-primary-loud: 'var(--white-color)'
+
+  # On neutral
+  ha-color-on-neutral-quiet: 'var(--ha-color-neutral-50)'
+  ha-color-on-neutral-normal: 'var(--ha-color-neutral-40)'
+  ha-color-on-neutral-loud: 'var(--white-color)'
+
+  # On disabled
+  ha-color-on-disabled-quiet: 'var(--ha-color-neutral-80)'
+  ha-color-on-disabled-normal: 'var(--ha-color-neutral-70)'
+  ha-color-on-disabled-loud: 'var(--ha-color-neutral-95)'
+
+  # On danger
+  ha-color-on-danger-quiet: 'var(--ha-color-red-50)'
+  ha-color-on-danger-normal: 'var(--ha-color-red-40)'
+  ha-color-on-danger-loud: 'var(--white-color)'
+
+  # On warning
+  ha-color-on-warning-quiet: 'var(--ha-color-orange-50)'
+  ha-color-on-warning-normal: 'var(--ha-color-orange-40)'
+  ha-color-on-warning-loud: 'var(--white-color)'
+
+  # On success
+  ha-color-on-success-quiet: 'var(--ha-color-green-50)'
+  ha-color-on-success-normal: 'var(--ha-color-green-40)'
+  ha-color-on-success-loud: 'var(--white-color)'
+
+  # Surfaces
+  ha-color-surface-default: 'var(--ha-color-neutral-95)'
+  ha-color-on-surface-default: 'var(--ha-color-neutral-05)'
+
+  # ==================================================
+  # VIEW STYLES (hui-sections-view.ts, hui-view-background.ts)
+  # ==================================================
+
+  # View sections layout
+  ha-view-sections-row-height: 'var(--ha-space-14)'
+  ha-view-sections-row-gap: 'var(--ha-space-2)'
+  ha-view-sections-column-gap: 'var(--ha-space-8)'
+  ha-view-sections-column-max-width: '480px'
+  ha-view-sections-column-min-width: '360px'
+  ha-view-sections-extra-top-margin: 'var(--ha-space-20)'
+
+  # View background
+  lovelace-background: 'var(--primary-background-color)'
+  view-background: 'radial-gradient(circle at 70% 35%, rgba(0, 150, 136, 0.3) 10%, transparent 50%), radial-gradient(circle at 55% 85%, rgba(147, 51, 234, 0.35) 0%, transparent 50%), radial-gradient(circle at 75% 60%, rgba(236, 72, 153, 0.3) 0%, transparent 50%), radial-gradient(circle at 45% 70%, rgba(var(--rgb-primary-background-color), 0.25) 0%, transparent 50%), radial-gradient(circle at 80% 90%, rgba(var(--rgb-primary-background-color), 0.3) 0%, transparent 50%), rgba(var(--rgb-primary-background-color), 1)'
+  view-background-opacity: 0.3
+
+  # Section grid layout
+  ha-section-grid-row-gap: 'var(--ha-space-2)'
+  ha-section-grid-column-gap: 'var(--ha-space-2)'
+  ha-section-grid-row-height: 'var(--ha-space-14)'
+
+  # ==================================================
+  # CARD STYLES (hui-card-* components)
+  # ==================================================
+
+  # Card border and styling
+  ha-badge-border-radius: 'var(--ha-border-radius-md)'
+  ha-card-border-radius: 'var(--ha-border-radius-md)'
+  ha-card-border-width: 0
+  ha-card-border-color: transparent
+  ha-card-box-shadow: none
+
+  # Card header
+  ha-card-header-color: 'var(--primary-text-color)'
+  ha-card-header-font-family: 'var(--ha-font-family-body)'
+  ha-card-header-font-size: 'var(--ha-font-size-2xl)'
+
+  # Card background
+  ha-card-background: 'var(--bubble-button-main-background-color)'
+
+  # ==================================================
+  # DIALOG STYLES (ha-dialog, ha-wa-dialog)
+  # ==================================================
+
+  # Dialog sizing
+  ha-dialog-border-radius: 'var(--ha-border-radius-md)'
+  ha-dialog-width-md: 'min(580px, var(--full-width))'
+  ha-dialog-max-width: 100vw
+
+  # Dialog animation
+  ha-dialog-show-duration: 200ms
+  ha-dialog-hide-duration: 200ms
+
+  # Dialog surface
+  ha-dialog-surface-background: 'var(--primary-background-color)'
+
+  # ==================================================
+  # LAYOUT & PANEL STYLES
+  # ==================================================
+
+  # Automation editor
+  ha-automation-editor-width: 1540px
+  ha-automation-editor-max-width: 'var(--ha-automation-editor-width, 1540px)'
+
+  # Bottom sheet
+  ha-bottom-sheet-surface-background: 'var(--ha-color-surface-default)'
+
+  # Ripple effects
+  ha-ripple-color: 'var(--primary-color)'
+  ha-ripple-hover-opacity: 0.04
+  ha-ripple-pressed-opacity: 0.12
+
+  # App header
+  app-header-edit-background-color: 'var(--card-background-color)'
+  app-header-edit-text-color: 'var(--text-primary-color)'
+  app-header-backdrop-filter: none
+  app-header-border-bottom: none
+  app-header-text-color: 'var(--text-primary-color)'
+  app-header-background-color: 'var(--card-background-color)'
+  app-theme-color: 'var(--app-header-background-color)'
+
+  # ==================================================
+  # COLOR STYLES (color/color.globals.ts)
+  # ==================================================
+
+  # text
+  primary-text-color: 'var(--white-color)'
+  secondary-text-color: 'rgba(var(--rgb-secondary-text-color), 1)'
+  text-primary-color: 'var(--primary-text-color)'
+  text-light-primary-color: 'var(--primary-text-color)'
+  disabled-text-color: 'var(--ha-color-neutral-95)'
+
+  # main interface colors
+  primary-color: 'var(--ha-color-primary-50)'
+  dark-primary-color: 'var(--ha-color-primary-30)'
+  darker-primary-color: 'var(--ha-color-primary-20)'
+  light-primary-color: 'var(--ha-color-primary-80)'
+  accent-color: 'var(--ha-color-primary-40)'
+  divider-color: 'var(--primary-background-color)'
+  outline-color: 'rgba(0, 0, 0, 0.12)'
+  outline-hover-color: 'rgba(0, 0, 0, 0.24)'
+
+  # rgb
+  rgb-primary-color: '5, 134, 183'
+  rgb-accent-color: '4, 124, 183'
+  rgb-primary-text-color: '255, 255, 255'
+  rgb-secondary-text-color: '186, 192, 198'
+  rgb-text-primary-color: '255, 255, 255'
+  rgb-card-background-color: '32, 41, 60'
+  rgb-primary-background-color: '28, 36, 52'
+  rgb-warning-color: '255, 183, 28'
+  rgb-error-color: '219, 68, 55'
+  rgb-success-color: '67, 160, 71'
+  rgb-info-color: '3, 155, 229'
+
+  scrollbar-thumb-color: 'var(--light-grey-color)'
+
+  error-color: 'var(--red-color)'
+  warning-color: 'var(--amber-color)'
+  success-color: 'var(--green-color)'
+  info-color: 'var(--blue-color)'
+
+  # backgrounds
+  card-background-color: 'rgba(var(--rgb-card-background-color), 1)'
+  clear-background-color: 'var(--primary-color)'
+  primary-background-color: 'rgba(var(--rgb-primary-background-color), 1)'
+  secondary-background-color: none # behind the cards on state
+
+  # for label-badge
+  label-badge-grey: 'var(--grey-color)'
+
+  # states icon
+  state-icon-color: 'var(--blue-grey-color)'
+
+  # energy
+  energy-grid-consumption-color: 'var(--light-blue-color)'
+  energy-grid-return-color: 'var(--purple-color)'
+  energy-solar-color: 'var(--yellow-color)'
+  energy-non-fossil-color: 'var(--green-color)'
+  energy-battery-out-color: 'var(--teal-color)'
+  energy-battery-in-color: 'var(--pink-color)'
+  energy-gas-color: 'var(--red-color)'
+  energy-water-color: 'var(--cyan-color)'
+
+  # color
+  disabled-color: 'var(--light-grey-color)'
+  red-color: 'rgba(219, 68, 55, 0.8)'
+  pink-color: 'rgba(233, 30, 99, 0.8)'
+  purple-color: 'rgba(146, 107, 199, 0.8)'
+  deep-purple-color: 'rgba(110, 65, 171, 0.8)'
+  indigo-color: 'rgba(63, 81, 181, 0.8)'
+  blue-color: 'rgba(3, 155, 229, 0.8)'
+  light-blue-color: 'rgba(3, 169, 244, 0.8)'
+  cyan-color: 'rgba(0, 188, 212, 0.8)'
+  teal-color: 'rgba(0, 150, 136, 0.8)'
+  green-color: 'rgba(67, 160, 71, 0.8)'
+  light-green-color: 'rgba(102, 187, 106, 0.8)'
+  lime-color: 'rgba(192, 225, 51, 0.8)'
+  yellow-color: 'rgba(255, 221, 51, 0.8)'
+  amber-color: 'rgba(255, 183, 28, 0.8)'
+  orange-color: 'rgba(255, 140, 0, 0.8)'
+  deep-orange-color: 'rgba(230, 81, 0, 0.8)'
+  brown-color: 'rgba(121, 85, 72, 0.8)'
+  light-grey-color: 'rgba(189, 189, 189, 0.8)'
+  grey-color: 'rgba(158, 158, 158, 0.8)'
+  dark-grey-color: 'rgba(96, 96, 96, 0.8)'
+  blue-grey-color: 'rgba(116, 135, 149, 0.8)'
+  black-color: 'rgba(0, 0, 0, 0.8)'
+  white-color: 'rgba(255, 255, 255, 0.8)'
+
+  # history colors
+  history-unavailable-color: transparent
+
+  # input components
+  input-idle-line-color: 'var(--primary-background-color)'
+  input-hover-line-color: 'var(--primary-color)'
+  input-disabled-line-color: 'var(--disabled-text-color)'
+  input-outlined-idle-border-color: 'var(--disabled-text-color)'
+  input-outlined-hover-border-color: 'var(--disabled-text-color)'
+  input-outlined-disabled-border-color: 'var(--disabled-text-color)'
+  input-fill-color: 'var(--primary-background-color)'
+  input-disabled-fill-color: 'var(--primary-background-color)'
+  input-ink-color: 'var(--white-color)'
+  input-label-ink-color: 'var(--white-color)'
+  input-disabled-ink-color: 'var(--disabled-text-color)'
+  input-dropdown-icon-color: 'var(--secondary-text-color)'
+
+  # for label-badge
+  label-badge-red: 'var(--ha-color-red-50)'
+  label-badge-blue: 'var(--ha-color-primary-50)'
+  label-badge-green: 'var(--ha-color-green-60)'
+  label-badge-yellow: 'var(--ha-color-orange-70)'
+
+  # state color
+  state-active-color: 'var(--primary-color)'
+  state-inactive-color: 'var(--grey-color)'
+  state-unavailable-color: 'var(--state-icon-unavailable-color, var(--disabled-text-color))'
+
+  # state domain colors
+  state-alarm_control_panel-armed_away-color: 'var(--green-color)'
+  state-alarm_control_panel-armed_custom_bypass-color: 'var(--green-color)'
+  state-alarm_control_panel-armed_home-color: 'var(--green-color)'
+  state-alarm_control_panel-armed_night-color: 'var(--green-color)'
+  state-alarm_control_panel-armed_vacation-color: 'var(--green-color)'
+  state-alarm_control_panel-arming-color: 'var(--orange-color)'
+  state-alarm_control_panel-disarming-color: 'var(--orange-color)'
+  state-alarm_control_panel-pending-color: 'var(--orange-color)'
+  state-alarm_control_panel-triggered-color: 'var(--red-color)'
+  state-alert-off-color: 'var(--orange-color)'
+  state-alert-on-color: 'var(--red-color)'
+  state-binary_sensor-active-color: 'var(--amber-color)'
+  state-binary_sensor-battery-on-color: 'var(--red-color)'
+  state-binary_sensor-carbon_monoxide-on-color: 'var(--red-color)'
+  state-binary_sensor-gas-on-color: 'var(--red-color)'
+  state-binary_sensor-heat-on-color: 'var(--red-color)'
+  state-binary_sensor-lock-on-color: 'var(--red-color)'
+  state-binary_sensor-moisture-on-color: 'var(--red-color)'
+  state-binary_sensor-problem-on-color: 'var(--red-color)'
+  state-binary_sensor-safety-on-color: 'var(--red-color)'
+  state-binary_sensor-smoke-on-color: 'var(--red-color)'
+  state-binary_sensor-sound-on-color: 'var(--red-color)'
+  state-binary_sensor-tamper-on-color: 'var(--red-color)'
+  state-climate-auto-color: 'rgba(var(--rgb-accent-color), 0.1)'
+  state-climate-cool-color: 'var(--blue-color)'
+  state-climate-dry-color: 'var(--orange-color)'
+  state-climate-fan_only-color: 'var(--cyan-color)'
+  state-climate-heat-color: 'var(--deep-orange-color)'
+  state-climate-heat-cool-color: 'var(--amber-color)'
+  state-cover-active-color: 'var(--purple-color)'
+  state-device_tracker-active-color: 'var(--blue-color)'
+  state-device_tracker-home-color: 'var(--green-color)'
+  state-fan-active-color: 'var(--cyan-color)'
+  state-humidifier-on-color: 'var(--blue-color)'
+  state-lawn_mower-error-color: 'var(--red-color)'
+  state-lawn_mower-mowing-color: 'var(--teal-color)'
+  state-light-active-color: 'var(--amber-color)'
+  state-lock-jammed-color: 'var(--red-color)'
+  state-lock-locked-color: 'var(--green-color)'
+  state-lock-locking-color: 'var(--orange-color)'
+  state-lock-unlocked-color: 'var(--red-color)'
+  state-lock-unlocking-color: 'var(--orange-color)'
+  state-lock-open-color: 'var(--red-color)'
+  state-lock-opening-color: 'var(--orange-color)'
+  state-media_player-active-color: 'var(--light-blue-color)'
+  state-person-active-color: 'var(--blue-color)'
+  state-person-home-color: 'var(--green-color)'
+  state-plant-active-color: 'var(--red-color)'
+  state-siren-active-color: 'var(--red-color)'
+  state-sun-above_horizon-color: 'var(--amber-color)'
+  state-sun-below_horizon-color: 'var(--indigo-color)'
+  state-switch-active-color: 'var(--amber-color)'
+  state-update-active-color: 'var(--orange-color)'
+  state-vacuum-active-color: 'var(--teal-color)'
+  state-valve-active-color: 'var(--blue-color)'
+  state-sensor-battery-high-color: 'var(--green-color)'
+  state-sensor-battery-low-color: 'var(--red-color)'
+  state-sensor-battery-medium-color: 'var(--orange-color)'
+  state-water_heater-eco-color: 'var(--green-color)'
+  state-water_heater-electric-color: 'var(--orange-color)'
+  state-water_heater-gas-color: 'var(--orange-color)'
+  state-water_heater-heat_pump-color: 'var(--orange-color)'
+  state-water_heater-high_demand-color: 'var(--deep-orange-color)'
+  state-water_heater-performance-color: 'var(--deep-orange-color)'
+
+  # history colors
+  history-unknown-color: 'var(--dark-grey-color)'
+
+  state-icon-error-color: 'var(--error-state-color, var(--error-color))'
+  sidebar-text-color: 'var(--primary-text-color)'
+  sidebar-background-color: 'var(--app-header-background-color)'
+  sidebar-selected-text-color: 'var(--white-color)'
+  sidebar-selected-icon-color: 'var(--primary-color)'
+  sidebar-icon-color: 'var(--secondary-text-color)'
+  switch-checked-color: 'var(--primary-color)'
+  switch-checked-button-color: 'var(--primary-color)'
+  switch-checked-track-color: 'var(--card-background-color)'
+  switch-unchecked-button-color: 'var(--disabled-text-color)'
+  switch-unchecked-track-color: 'var(--card-background-color)'
+  slider-color: 'var(--primary-color)'
+  slider-secondary-color: 'var(--light-primary-color)'
+  slider-track-color: 'var(--scrollbar-thumb-color)'
+  label-badge-background-color: 'var(--primary-background-color)'
+  label-badge-text-color: 'var(--text-primary-color)'
+  table-header-background-color: 'var(--input-fill-color)'
+  table-row-background-color: 'var(--primary-background-color)'
+  table-row-alternative-background-color: 'rgba(0, 0, 0, 0.1)'
+  data-table-background-color: 'var(--card-background-color)'
+  markdown-code-background-color: 'var(--primary-background-color)'
+  bar-box-shadow: '0 2px 12px rgba(0, 0, 0, 0.16)'
+
+  # https://github.com/material-components/material-web/blob/master/docs/theming.md
+  mdc-theme-primary: 'var(--primary-color)'
+  mdc-theme-secondary: 'var(--primary-color)'
+  mdc-theme-background: 'var(--primary-background-color)'
+  mdc-theme-surface: 'var(--card-background-color)'
+  mdc-theme-on-primary: 'var(--text-primary-color)'
+  mdc-theme-on-secondary: 'var(--text-primary-color)'
+  mdc-theme-on-surface: 'var(--primary-text-color)'
+  mdc-theme-text-disabled-on-light: 'var(--disabled-text-color)'
+  mdc-theme-text-primary-on-background: 'var(--primary-text-color)'
+  mdc-theme-text-secondary-on-background: 'var(--secondary-text-color)'
+  mdc-theme-text-hint-on-background: 'var(--secondary-text-color)'
+  mdc-theme-text-icon-on-background: 'var(--secondary-text-color)'
+  mdc-theme-error: 'var(--error-color)'
+  mdc-checkbox-unchecked-color: 'rgba(var(--rgb-primary-color), 0.5)'
+  mdc-checkbox-disabled-color: 'var(--disabled-text-color)'
+  mdc-radio-unchecked-color: 'rgba(var(--rgb-primary-color), 0.5)'
+  mdc-radio-disabled-color: 'var(--disabled-text-color)'
+  mdc-tab-text-label-color-default: 'var(--primary-text-color)'
+  mdc-button-disabled-ink-color: 'var(--disabled-text-color)'
+  mdc-button-outline-color: 'var(--outline-color)'
+  mdc-dialog-scroll-divider-color: 'var(--divider-color)'
+  mdc-dialog-heading-ink-color: 'var(--primary-text-color)'
+  mdc-dialog-content-ink-color: 'var(--primary-text-color)'
+  mdc-dialog-scrim-color: 'rgba(0, 0, 0, 0.8)'
+  mdc-top-app-bar-fixed-box-shadow: 'var(--bar-box-shadow)'
+
+  mdc-text-field-idle-line-color: 'var(--input-idle-line-color)'
+  mdc-text-field-hover-line-color: 'var(--input-hover-line-color)'
+  mdc-text-field-disabled-line-color: 'var(--input-disabled-line-color)'
+  mdc-text-field-outlined-idle-border-color: 'var(--input-outlined-idle-border-color)'
+  mdc-text-field-outlined-hover-border-color: 'var(--input-outlined-hover-border-color)'
+  mdc-text-field-outlined-disabled-border-color: 'var(--input-outlined-disabled-border-color)'
+  mdc-text-field-fill-color: 'var(--bubble-main-background-color)'
+  mdc-text-field-disabled-fill-color: 'var(--input-disabled-fill-color)'
+  mdc-text-field-ink-color: 'var(--white-color)'
+  mdc-text-field-label-ink-color: 'var(--secondary-text-color)'
+  mdc-text-field-disabled-ink-color: 'var(--input-disabled-ink-color)'
+
+  mdc-select-idle-line-color: 'var(--input-idle-line-color)'
+  mdc-select-hover-line-color: 'var(--input-hover-line-color)'
+  mdc-select-outlined-idle-border-color: 'var(--input-outlined-idle-border-color)'
+  mdc-select-outlined-hover-border-color: 'var(--input-outlined-hover-border-color)'
+  mdc-select-outlined-disabled-border-color: 'var(--input-outlined-disabled-border-color)'
+  mdc-select-fill-color: 'var(--bubble-main-background-color)'
+  mdc-select-disabled-fill-color: 'var(--input-disabled-fill-color)'
+  mdc-select-ink-color: 'var(--input-ink-color)'
+  mdc-select-label-ink-color: 'var(--input-label-ink-color)'
+  mdc-select-disabled-ink-color: 'var(--input-disabled-ink-color)'
+  mdc-select-dropdown-icon-color: 'var(--input-dropdown-icon-color)'
+  mdc-select-disabled-dropdown-icon-color: 'var(--input-disabled-ink-color)'
+  ha-assist-chip-filled-container-color: 'rgba(var(--rgb-primary-color), 0.2)'
+  ha-assist-chip-active-container-color: 'rgba(var(--rgb-primary-color), 0.2)'
+  chip-background-color: 'rgba(var(--rgb-primary-color), 0.1)'
+
+  # Vaadin
+  material-body-text-color: 'var(--primary-text-color)'
+  material-background-color: 'var(--sidebar-background-color)'
+  material-secondary-background-color: 'rgba(0, 0, 0, 0.1)'
+  material-secondary-text-color: 'var(--secondary-text-color)'
+
+  # ==================================================
+  # WA MAIN STYLES (wa.globals.ts)
+  # ==================================================
+
+  wa-border-width-l: 'var(--ha-border-radius-l)'
+  wa-focus-ring-offset: 'var(--ha-border-width-md)'
+  wa-focus-ring-style: solid
+  wa-focus-ring-width: 'var(--ha-border-width-md)'
+  wa-focus-ring: 'var(--wa-focus-ring-style) var(--wa-focus-ring-width) var(--wa-focus-ring-color)'
+  wa-font-weight-action: 'var(--ha-font-weight-medium)'
+  wa-form-control-padding-block: 0.75em
+  wa-shadow-l: '0 8px 8px -4px rgba(0, 0, 0, 0.2)'
+  wa-space-l: 'var(--ha-space-6)'
+  wa-space-xl: 'var(--ha-space-8)'
+  wa-transition-easing: ease
+  wa-transition-fast: 75ms
+
+  # ==================================================
+  # WA COLOR STYLES (color/wa.globals.ts)
+  # ==================================================
+
+  # Brand colors
+  wa-color-brand-fill-loud: 'var(--ha-color-fill-primary-loud-resting)'
+  wa-color-brand-fill-normal: 'var(--ha-color-fill-primary-normal-resting)'
+  wa-color-brand-fill-quiet: 'var(--ha-color-fill-primary-quiet-resting)'
+  wa-color-brand-border-loud: 'var(--ha-color-border-primary-loud)'
+  wa-color-brand-border-normal: 'var(--ha-color-primary-50)'
+  wa-color-brand-border-quiet: 'var(--ha-color-border-primary-quiet)'
+  wa-color-brand-on-loud: 'var(--ha-color-on-primary-loud)'
+  wa-color-brand-on-normal: 'var(--ha-color-on-primary-normal)'
+  wa-color-brand-on-quiet: 'var(--ha-color-on-primary-quiet)'
+
+  # Neutral colors
+  wa-color-neutral-fill-loud: 'var(--ha-color-fill-neutral-loud-resting)'
+  wa-color-neutral-fill-normal: 'var(--ha-color-fill-neutral-normal-resting)'
+  wa-color-neutral-fill-quiet: 'var(--ha-color-fill-neutral-quiet-resting)'
+  wa-color-neutral-border-loud: 'var(--ha-color-border-neutral-loud)'
+  wa-color-neutral-border-normal: 'var(--ha-color-border-neutral-normal)'
+  wa-color-neutral-border-quiet: 'var(--ha-color-border-neutral-quiet)'
+  wa-color-neutral-on-loud: 'var(--ha-color-on-neutral-loud)'
+  wa-color-neutral-on-normal: 'var(--ha-color-on-neutral-normal)'
+  wa-color-neutral-on-quiet: 'var(--ha-color-on-neutral-quiet)'
+
+  # Success colors
+  wa-color-success-fill-loud: 'var(--ha-color-fill-success-loud-resting)'
+  wa-color-success-fill-normal: 'var(--ha-color-fill-success-normal-resting)'
+  wa-color-success-fill-quiet: 'var(--ha-color-fill-success-quiet-resting)'
+  wa-color-success-border-loud: 'var(--ha-color-border-success-loud)'
+  wa-color-success-border-normal: 'var(--ha-color-border-success-normal)'
+  wa-color-success-border-quiet: 'var(--ha-color-border-success-quiet)'
+  wa-color-success-on-loud: 'var(--ha-color-on-success-loud)'
+  wa-color-success-on-normal: 'var(--ha-color-on-success-normal)'
+  wa-color-success-on-quiet: 'var(--ha-color-on-success-quiet)'
+
+  # Warning colors
+  wa-color-warning-fill-loud: 'var(--ha-color-fill-warning-loud-resting)'
+  wa-color-warning-fill-normal: 'var(--ha-color-fill-warning-normal-resting)'
+  wa-color-warning-fill-quiet: 'var(--ha-color-fill-warning-quiet-resting)'
+  wa-color-warning-border-loud: 'var(--ha-color-border-warning-loud)'
+  wa-color-warning-border-normal: 'var(--ha-color-border-warning-normal)'
+  wa-color-warning-border-quiet: 'var(--ha-color-border-warning-quiet)'
+  wa-color-warning-on-loud: 'var(--ha-color-on-warning-loud)'
+  wa-color-warning-on-normal: 'var(--ha-color-on-warning-normal)'
+  wa-color-warning-on-quiet: 'var(--ha-color-on-warning-quiet)'
+
+  # Danger colors
+  wa-color-danger-fill-loud: 'var(--ha-color-fill-danger-loud-resting)'
+  wa-color-danger-fill-normal: 'var(--ha-color-fill-danger-normal-resting)'
+  wa-color-danger-fill-quiet: 'var(--ha-color-fill-danger-quiet-resting)'
+  wa-color-danger-border-loud: 'var(--ha-color-border-danger-loud)'
+  wa-color-danger-border-normal: 'var(--ha-color-border-danger-normal)'
+  wa-color-danger-border-quiet: 'var(--ha-color-border-danger-quiet)'
+  wa-color-danger-on-loud: 'var(--ha-color-on-danger-loud)'
+  wa-color-danger-on-normal: 'var(--ha-color-on-danger-normal)'
+  wa-color-danger-on-quiet: 'var(--ha-color-on-danger-quiet)'
+
+  # Focus ring
+  wa-focus-ring-color: 'var(--ha-color-neutral-60)'
+
+  # ==================================================
+  # BUBBLE CARD VARIABLES (Clooos/Bubble-Card)
+  # ==================================================
+
+  # Global Bubble Card variables
+  bubble-border-radius: 'var(--ha-border-radius-md)'
+  bubble-main-background-color: 'rgba(0, 0, 0, 0.1)'
+  bubble-secondary-background-color: 'var(--card-background-color, var(--ha-card-background))'
+  bubble-accent-color: 'var(--primary-color)'
+  bubble-button-accent-color: 'rgba(var(--rgb-primary-color), 0.1)'
+  bubble-icon-border-radius: 'var(--ha-border-radius-md)'
+  bubble-icon-background-color: 'rgba(var(--rgb-primary-background-color), 0.94)'
+  bubble-sub-button-border-radius: 'var(--bubble-border-radius)'
+  bubble-sub-button-background-color: 'var(--bubble-icon-background-color)'
+  bubble-box-shadow: none
+  bubble-default-color: 'var(--primary-color)'
+  bubble-icon-color: 'var(--accent-color)'
+
+  # Pop-up variables
+  bubble-pop-up-border-radius: 'var(--ha-border-radius-3xl)'
+  bubble-pop-up-main-background-color: 'var(--bubble-secondary-background-color)'
+  bubble-pop-up-background-color: 'var(--bubble-secondary-background-color)'
+  bubble-pop-up-border: none
+  bubble-backdrop-background-color: 'rgba(0, 0, 0, 0.7)'
+  bubble-backdrop-filter: none
+  bubble-default-backdrop-background-color: 'rgba(0, 0, 0, 0.7)'
+
+  # Button card variables
+  bubble-button-main-background-color: 'var(--bubble-main-background-color)'
+  bubble-button-border-radius: 'var(--ha-border-radius-md)'
+  bubble-button-icon-border-radius: 'var(--ha-border-radius-md)'
+  bubble-button-icon-background-color: 'var(--bubble-icon-background-color)'
+  bubble-button-background-color: 'transparent'
+  bubble-button-box-shadow: 'var(--bubble-box-shadow)'
+  bubble-button-active-icon-color: 'var(--primary-background-color, white)'
+
+  # Media player variables
+  bubble-media-player-main-background-color: 'var(--bubble-main-background-color)'
+  bubble-media-player-border-radius: 'var(--bubble-border-radius, calc(var(--row-height,56px)/2))'
+  bubble-media-player-buttons-border-radius: 'var(--bubble-border-radius)'
+  bubble-media-player-slider-background-color: 'var(--bubble-icon-background-color)'
+  bubble-media-player-icon-border-radius: 'var(--bubble-icon-border-radius)'
+  bubble-media-player-icon-background-color: 'var(--bubble-icon-background-color)'
+  bubble-media-player-button-background-color: 'var(--bubble-icon-background-color)'
+  bubble-media-player-play-pause-icon-color: 'var(--bubble-button-active-icon-color)'
+  bubble-media-player-box-shadow: 'var(--bubble-box-shadow)'
+  bubble-volume-slider-width-calc: 'calc(100% - 150px)'
+  bubble-volume-slider-left-offset: 'var(--ha-space-14)'
+
+  # Cover card variables
+  bubble-cover-main-background-color: 'var(--bubble-main-background-color)'
+  bubble-cover-border-radius: 'var(--bubble-border-radius)'
+  bubble-cover-buttons-border-radius: 'var(--bubble-border-radius)'
+  bubble-cover-button-background-color: 'var(--bubble-icon-background-color)'
+  bubble-cover-icon-border-radius: 'var(--bubble-icon-border-radius)'
+  bubble-cover-icon-background-color: 'var(--bubble-icon-background-color)'
+  bubble-cover-box-shadow: 'var(--bubble-box-shadow)'
+
+  # Select card variables
+  bubble-select-main-background-color: 'var(--bubble-card-background-color)'
+  bubble-select-background-color: 'var(--bubble-icon-background-color)'
+  bubble-select-list-border-radius: 'var(--bubble-border-radius)'
+  bubble-select-list-item-accent-color: 'var(--bubble-accent-color)'
+  bubble-select-list-background-color: 'var(--bubble-icon-background-color)'
+  bubble-select-list-width: '200px'
+  bubble-select-arrow-background-color: 'var(--bubble-icon-background-color)'
+  bubble-select-button-border-radius: 'var(--bubble-border-radius)'
+  bubble-select-border-radius: 'var(--bubble-border-radius)'
+  bubble-select-icon-border-radius: 'var(--bubble-icon-border-radius)'
+  bubble-select-icon-background-color: 'var(--bubble-icon-background-color)'
+  bubble-select-border: 'solid 2px var(--bubble-accent-color)'
+  bubble-select-box-shadow: 'var(--bubble-box-shadow)'
+
+  # Climate card variables
+  bubble-climate-main-background-color: 'var(--bubble-main-background-color)'
+  bubble-climate-border-radius: 'var(--bubble-border-radius)'
+  bubble-climate-button-background-color: 'var(--bubble-icon-background-color)'
+  bubble-climate-icon-border-radius: 'var(--bubble-icon-border-radius)'
+  bubble-climate-icon-background-color: 'var(--bubble-icon-background-color)'
+  bubble-state-climate-auto-color: 'var(--state-climate-auto-color)'
+  bubble-state-climate-cool-color: 'var(--state-climate-cool-color)'
+  bubble-state-climate-dry-color: 'var(--state-climate-dry-color)'
+  bubble-state-climate-fan-only-color: 'var(--state-climate-fan_only-color)'
+  bubble-state-climate-heat-color: 'var(--state-climate-heat-color)'
+  bubble-state-climate-heat-cool-color: 'var(--state-climate-heat-cool-color)'
+  bubble-state-climate-off-color: 'transparent'
+
+  # Calendar card variables
+  bubble-calendar-main-background-color: 'var(--bubble-main-background-color)'
+  bubble-calendar-border-radius: 'var(--bubble-border-radius)'
+  bubble-calendar-height: 'var(--ha-space-14)'
+  bubble-event-background-color: transparent
+  bubble-event-background-image: none
+
+  # Separator variables
+  bubble-line-background-color: 'var(--ha-card-background-color, var(--secondary-background-color))'
+  bubble-separator-border: none
+
+  # Horizontal buttons stack variables
+  bubble-horizontal-buttons-stack-border-radius: 'var(--bubble-border-radius)'
+  bubble-horizontal-buttons-stack-background-color: 'var(--bubble-icon-background-color)'
+
+  # Card type specific overrides (allows per-card-type customization)
+  bubble-card-type-border-radius: 'var(--bubble-border-radius)'
+  bubble-card-type-main-background-color: 'transparent'
+  bubble-card-type-box-shadow: 'var(--bubble-box-shadow)'
+  bubble-card-type-border: 'var(--bubble-border, none)'
+  bubble-card-type-icon-border-radius: 'var(--bubble-icon-border-radius)'
