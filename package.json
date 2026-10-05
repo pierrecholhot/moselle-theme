@@ -1,6 +1,6 @@
 {
   "name": "moselle-theme",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Dark theme for Home Assistant, adapted to work nicely with Bubble Card",
   "repository": {
     "type": "git",
